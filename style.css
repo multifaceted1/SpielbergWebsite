@@ -1,0 +1,176 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+h3 {
+    padding: 15px;
+}
+
+.mediaFlex {
+    display: flex;
+}
+
+div.moonBackground {
+    background-image: url("https://res.cloudinary.com/margaretkellogg/image/upload/v1601998279/Spielberg/moonNoElliott_uqsrxq.png");
+    background-size: 395px;
+    background-position: center, top;
+    background-repeat: no-repeat;
+    background-color: #181835;
+    height: 600px;
+}
+
+.headerImg {
+width: 70%;
+height: auto;
+background-color: slategrey;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.photoFlex{
+    max-height: 250px;
+    width: auto;
+}
+
+.imgFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+th {
+    padding: 8px;
+}
+
+ol{
+    width: 95%;
+}
+
+div.films {
+    margin-left: 15px;
+    background-color: white;
+    padding: 5px;
+}
+
+.flying {
+    padding-top: 100px;
+    padding-left: 39%;
+    animation-name: Elliot;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.photogrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.griditem {
+    max-width: 415px;
+}
+
+.headerSchindlerImg {
+    max-width: 100%;
+}
+
+/*jones*/
+
+#raiders {
+    border-left: solid;
+    border-color: goldenrod;
+    border-width: 10px;
+    background-color: rgb(241, 241, 200);
+}
+
+#doom {
+    border-left: solid;
+    border-color: rgb(39, 35, 59), 3px;
+    border-width: 10px;
+    background-color: rgb(146, 145, 146);
+}
+
+#crusade {
+    border-left: solid;
+    border-color:darkred;
+    border-width: 10px;
+    background-color: white;
+}
+
+#skull {
+    border-left: solid;
+    border-color:grey;
+    border-width: 10px;
+    background-color: rgb(243, 233, 208);
+}
+
+.leftFlexedPics {
+    height: 335px;
+    width: 360px;
+}
+
+.padLeft {
+    padding-left: 10px;
+}
+.flexJones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@keyframes Elliot {
+    0% {
+        padding-top: 100px;
+        padding-left: 39%;
+    }
+    100% {
+        padding-top: 85px;
+        padding-left: 55%;
+    }
+}
+
+body{
+    background-color: whitesmoke;
+}
+@media only screen and (max-width: 610px) {
+    h1 {
+        font-size: 30px;
+    }
+    .mediaFlex {
+        display: block;
+    }
+
+    .flying {
+        padding-left: 30%;
+    }
+
+    .photogrid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    @keyframes Elliot{
+        0% {
+            padding-top: 100px;
+            padding-left: 30%;
+        }
+        100% {
+            padding-top: 85px;
+            padding-left: 55%;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 25px;
+    }
+    .films {
+        font-size: small;
+    }
+}
