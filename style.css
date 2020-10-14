@@ -7,7 +7,8 @@ h1 {
     margin: 0;
 }
 h3 {
-    padding: 15px;
+    text-align: center;
+    padding: 20px;
 }
 
 .mediaFlex {
@@ -113,14 +114,29 @@ div.films {
 .leftFlexedPics {
     height: 335px;
     width: 360px;
+
 }
+.rightFlexedP {
+    float: right;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    opacity: 80%;
+}
+
+
 
 .padLeft {
     padding-left: 10px;
 }
 .flexJones {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @keyframes Elliot {
@@ -134,7 +150,7 @@ div.films {
     }
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 @media only screen and (max-width: 610px) {
