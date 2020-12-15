@@ -44,6 +44,9 @@ margin-right: auto;
     flex: 1;
     justify-content: space-evenly;
 }
+.films {
+    padding-left: 2%;
+}
 
 th {
     padding: 8px;
@@ -82,29 +85,46 @@ div.films {
 }
 
 /*jones*/
-
-#raiders {
+#raidersH {
+    background-color:  rgb(241, 241, 200);
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.raiders {
     border-left: solid;
     border-color: goldenrod;
     border-width: 10px;
     background-color: rgb(241, 241, 200);
 }
 
-#doom {
+#doomH {
+    padding-top: 20px;
+    background-color:  rgb(146, 145, 146);
+    margin-bottom: 0;
+}
+.doom {
     border-left: solid;
     border-color: rgb(39, 35, 59), 3px;
     border-width: 10px;
     background-color: rgb(146, 145, 146);
 }
 
-#crusade {
+#crusadeH {
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.crusade {
     border-left: solid;
     border-color:darkred;
     border-width: 10px;
     background-color: white;
 }
 
-#skull {
+#skullH {
+    padding-top: 20px;
+}
+.skull {
     border-left: solid;
     border-color:grey;
     border-width: 10px;
@@ -114,7 +134,7 @@ div.films {
 .leftFlexedPics {
     height: 335px;
     width: 360px;
-
+    margin-top:0;
 }
 .rightFlexedP {
     float: right;
@@ -137,6 +157,7 @@ div.films {
 .flexJones {
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 @keyframes Elliot {
@@ -181,12 +202,35 @@ body {
         }
     }
 }
+@media only screen and (max-width: 850px) {
+    .flexJones {
+        display: block;
+    }
+    .rightFlexedP {
+        float: left;
+        font-size: 16px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     h1 {
-        font-size: 25px;
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
     }
     .films {
         font-size: small;
     }
+    .headerImg {
+        width: 100%;
+    }
+
+
+
 }
