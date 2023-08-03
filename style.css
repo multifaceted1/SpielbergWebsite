@@ -68,7 +68,7 @@ div.films {
 }
 
 .flying {
-    padding-top: 100px;
+    padding-top: 103px;
     padding-left: 40%;
     animation-name: Elliot;
     animation-duration: 10s;
@@ -167,7 +167,7 @@ div.films {
 
 @keyframes Elliot {
     0% {
-        padding-top: 100px;
+        padding-top: 103px;
         padding-left: 40%;
     }
     100% {
@@ -198,7 +198,7 @@ body {
 
     @keyframes Elliot{
         0% {
-            padding-top: 100px;
+            padding-top: 103px;
             padding-left: 30%;
         }
         100% {
