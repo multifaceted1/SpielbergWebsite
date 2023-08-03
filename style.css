@@ -69,7 +69,7 @@ div.films {
 
 .flying {
     padding-top: 100px;
-    padding-left: 39%;
+    padding-left: 40%;
     animation-name: Elliot;
     animation-duration: 10s;
     animation-delay: 1s;
@@ -171,7 +171,7 @@ div.films {
         padding-left: 40%;
     }
     100% {
-        padding-top: 87px;
+        padding-top: 86px;
         padding-left: 54%;
 
 }
