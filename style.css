@@ -15,6 +15,11 @@ h3 {
     display: flex;
 }
 
+#eliotIcon  {
+    max-height: 30px;
+    margin:0;
+}
+
 div.moonBackground {
     background-image: url("https://res.cloudinary.com/margaretkellogg/image/upload/v1601998279/Spielberg/moonNoElliott_uqsrxq.png");
     background-size: 395px;
