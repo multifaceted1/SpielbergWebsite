@@ -16,7 +16,7 @@ h3 {
 }
 
 #eliotIcon  {
-    max-height: 35px;
+    max-height: 37px;
     margin:0;
 }
 
@@ -168,12 +168,12 @@ div.films {
 @keyframes Elliot {
     0% {
         padding-top: 100px;
-        padding-left: 39%;
+        padding-left: 40%;
     }
     100% {
-        padding-top: 85px;
-        padding-left: 55%;
-    }
+        padding-top: 87px;
+        padding-left: 54%;
+
 }
 
 body {
